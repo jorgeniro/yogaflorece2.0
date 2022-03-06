@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap');
+
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.column {
+    width: 100%;
+}
+
+
+.group--color .container {
+    background: #fff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.welcome {
+    background:#6867ac !important;
+    
+}
+
+.main__title {
+    padding-top: 25px;
+    
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.column__title {
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.main__about__description .column:nth-child(2) {
+    padding: 10px;
+} 
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    background: #6867ac;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+.btn--price {
+    border-radius: 50px;
+}
+
+.group__title {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8em;
+    margin: 30px;
+}
+
+.today-special .column {
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.today-special__img {
+    display: block;
+    max-width: 500px;
+}
+
+.today-special__title {
+    font-size: 1.3em;
+    padding: 10px 0 5px 0;
+}
+
+.today-special__price {
+    font-size: 1.5em;
+    color: #6867ac;
+    font-weight: bold;
+}
+
+
+
+.btn--contact {
+    display: inline-block;
+font-size: 1em;
+
+padding: 10px 30px;
+text-decoration: none;
+
+margin-top: 10px;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: 0.2s;
+}
+.btn--contact:hover {
+    letter-spacing: 6px;
+}
+
+.main__text {
+    padding: 0 15px 20px 15px;
+}

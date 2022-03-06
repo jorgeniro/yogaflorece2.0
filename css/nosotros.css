@@ -1,0 +1,120 @@
+.our-team {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-team .container--flex {
+    align-items: flex-start;
+}
+
+.our-team__title {
+    font-family: 'Pacifico', cursive;
+    color:#6867ac; 
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.our-team__img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.our-team__img1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: -140px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.our-team__txt {
+    padding: 20px;
+    text-align: center;
+}
+
+.nos--motivation {
+    background: #6867ac;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.group--color .container {
+    background: #ffffff;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:768px) {
+    .our-team__img  {
+        width: 220px;
+        height: 220px;
+    }
+
+    .our-team__img1 {
+        width: 220px;
+        height: 220px;
+        object-position: -140px;
+    }
+    .main__text {
+        margin: 20px;
+        font-size: 1.2em;
+    }
+    .our-team__txt {
+        font-size: 1.4em;
+    }
+
+    .nos__title {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .nos__txt {
+        font-size: 2em;
+    }
+    
+}
+   
+@media screen and (min-width:1024px) {
+    .our-team__img  {
+        width: 200px;
+        height: 200px;
+    }
+    .our-team__img1 {
+        width: 200px;
+        height: 200px;
+        object-position: -140px;
+    }
+
+    .our-team__title {
+        font-size: 2.1em;
+    }
+    .our-team__txt {
+        font-size: 1.3em;
+    }
+    .main__text {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .our-team__img  {
+        width: 200px;
+        height: 200px;
+    }
+    .our-team__img1 {
+        width: 200px;
+        height: 200px;
+        object-position: -145px;
+    }
+}

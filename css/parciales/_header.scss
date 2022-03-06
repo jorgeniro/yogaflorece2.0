@@ -4,15 +4,15 @@
 
 .logo {
     font-size: 1.8em;
-    color: #6867ac;
+    color: $tema;
     padding: 10px;
     font-family: 'Arima Madurai', cursive;
     font-weight: 500;
 }
 
 .main-header__contactInfo__phone {
-    background: #6867ac;
-    color: white;
+    background: $tema;
+    color: $blanco;
     margin: 0 auto;
     padding: 10px;
 }
@@ -30,10 +30,10 @@
 
 .header--icon {
     text-decoration: none;
-    color: #fff;
+    color: $blanco;
 }
 .header--icon:hover {
-    color: #6867ac;
+    color: $tema;
     
 }
 .main-nav {
@@ -45,7 +45,7 @@
 
 .icon-menu {
     display: block;
-    color: white;
+    color: $blanco;
     border: 1px solid white;
     border-radius: 3px;
     width: 40px;
@@ -102,12 +102,12 @@
 .menu__link {
     display: block;
     padding: 15px;
-    color:white;
+    color: $blanco;
     text-decoration: none;
 }
 
 .menu__link:hover {
-    background: #6867ac;
+    background: $tema;
    
 }
 
@@ -117,5 +117,5 @@
 }
 
 .menu__link--select {
-    background-color: #6867ac;
+    background-color: $tema;
 }

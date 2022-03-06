@@ -23,7 +23,7 @@
 
 @media screen and (min-width:480px) {
     .logo {
-        color:white;
+        color: $blanco;
     }
 
     .main-header__contactInfo {
@@ -33,7 +33,7 @@
         background:none;
     }
     .main-header__contactInfo__adress {
-        color:white;
+        color: $blanco;
     }
     .main-nav {
         background: rgba(0, 0, 0, 0.85);
@@ -120,7 +120,7 @@
         font-size: .75em;
     }
     .contact-information {
-        border-right: 1px solid #6867ac;
+        border-right: 1px solid $tema;
         border-bottom: none;
     }
     
@@ -251,7 +251,6 @@
         font-size: 1.3em;
     }
 
-   
     .main__title {
         font-size: 2.2em;
     }
@@ -374,6 +373,11 @@
         width: 200px;
         height: 200px;
         object-position: -145px;
+    }
+    .main__text1 {
+        color: $blanco;
+        margin: 10px 100px 70px;
+        font-size: 1.5em;
     }
     
 }

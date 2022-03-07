@@ -59,21 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
 } 
 
-.btn {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    background: $tema;
-    color: $blanco;
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 30px;
-}
 
-.btn--price {
-    border-radius: 50px;
-}
 
 .group__title {
     font-family: 'Pacifico', cursive;
@@ -105,26 +91,43 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-
-
-.btn--contact {
-    display: inline-block;
-font-size: 1em;
-
-padding: 10px 30px;
-text-decoration: none;
-
-margin-top: 10px;
-text-transform: uppercase;
-letter-spacing: 2px;
-transition: 0.2s;
-}
-.btn--contact:hover {
-    letter-spacing: 6px;
-}
-
 .main__text {
     padding: 0 15px 20px 15px;
     color: black;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    background: $tema;
+    color: $blanco;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+.btn--price {
+   
+}
+.formulario__btn {
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn--contact {
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.btn--contact:hover {
+    letter-spacing: 6px;
 }
 

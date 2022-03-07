@@ -7,6 +7,23 @@
   /* padding: 0; */
 }
 
+.boton__gral, .formulario__label, .formulario__input-txt, .formulario__textarea {
+  display: block;
+  width: 100%;
+}
+
+.formulario__input-txt {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formulario__textarea {
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
 img {
   display: block;
   width: 100%;
@@ -68,22 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
-.btn {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-  background: #6867ac;
-  color: #fff;
-  padding: 10px;
-  margin: 10px auto;
-  border-radius: 30px;
-}
-
-.btn--price {
-  border-radius: 50px;
-}
-
 .group__title {
   font-family: 'Pacifico', cursive;
   text-align: center;
@@ -113,6 +114,29 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+.main__text {
+  padding: 0 15px 20px 15px;
+  color: black;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background: #6867ac;
+  color: #fff;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 30px;
+}
+
+.formulario__btn {
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
 .btn--contact {
   display: inline-block;
   font-size: 1em;
@@ -127,11 +151,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn--contact:hover {
   letter-spacing: 6px;
-}
-
-.main__text {
-  padding: 0 15px 20px 15px;
-  color: black;
 }
 
 .main-header {
@@ -504,29 +523,6 @@ body {
 .formulario {
   padding: 10px;
   padding-top: 0;
-}
-
-.formulario__label, .formulario__input-txt, .formulario__textarea {
-  display: block;
-  width: 100%;
-}
-
-.formulario__input-txt {
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.formulario__textarea {
-  min-height: 100px;
-  max-height: 200px;
-  min-width: 100%;
-  max-width: 100%;
-}
-
-.formulario__btn {
-  border: none;
-  cursor: pointer;
-  font-size: 1em;
 }
 
 .main-footer {

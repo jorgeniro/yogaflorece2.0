@@ -4,15 +4,15 @@
 
 .logo {
     font-size: 1.8em;
-    color: $tema;
+    color: map-get($paleta, tema);
     padding: 10px;
     font-family: 'Arima Madurai', cursive;
     font-weight: 500;
 }
 
 .main-header__contactInfo__phone {
-    background: $tema;
-    color: $blanco;
+    background: map-get($paleta, tema);
+    color: map-get($paleta, blanco);
     margin: 0 auto;
     padding: 10px;
 }
@@ -30,10 +30,10 @@
 
 .header--icon {
     text-decoration: none;
-    color: $blanco;
+    color: map-get($paleta, blanco);
 }
 .header--icon:hover {
-    color: $tema;
+    color: map-get($paleta, tema);
     
 }
 .main-nav {
@@ -45,7 +45,7 @@
 
 .icon-menu {
     display: block;
-    color: $blanco;
+    color: map-get($paleta, blanco);
     border: 1px solid white;
     border-radius: 3px;
     width: 40px;
@@ -102,12 +102,12 @@
 .menu__link {
     display: block;
     padding: 15px;
-    color: $blanco;
+    color: map-get($paleta, blanco);
     text-decoration: none;
 }
 
 .menu__link:hover {
-    background: $tema;
+    background: map-get($paleta, tema);
    
 }
 
@@ -117,5 +117,5 @@
 }
 
 .menu__link--select {
-    background-color: $tema;
+    background-color: map-get($paleta, tema);
 }

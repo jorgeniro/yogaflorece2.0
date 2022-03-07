@@ -7,23 +7,6 @@
   /* padding: 0; */
 }
 
-.boton__gral, .formulario__label, .formulario__input-txt, .formulario__textarea {
-  display: block;
-  width: 100%;
-}
-
-.formulario__input-txt {
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.formulario__textarea {
-  min-height: 100px;
-  max-height: 200px;
-  min-width: 100%;
-  max-width: 100%;
-}
-
 img {
   display: block;
   width: 100%;
@@ -523,6 +506,23 @@ body {
 .formulario {
   padding: 10px;
   padding-top: 0;
+}
+
+.boton__gral, .formulario__label, .formulario__input-txt, .formulario__textarea {
+  display: block;
+  width: 100%;
+}
+
+.formulario__input-txt {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formulario__textarea {
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .main-footer {

@@ -218,6 +218,25 @@ body {
     padding-top: 0;
 }
 
+.boton__gral {
+    display: block;
+    width: 100%;
+}
 
+.formulario__label {
+    @extend .boton__gral;
+}
+.formulario__input-txt {
+    @extend .boton__gral;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formulario__textarea {
+    @extend .boton__gral;
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
 
 

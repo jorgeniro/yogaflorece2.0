@@ -102,7 +102,7 @@
 .menu__link {
     display: block;
     padding: 15px;
-    color: map-get($paleta, blanco);
+    color: $blanco;
     text-decoration: none;
 }
 

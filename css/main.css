@@ -3,8 +3,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /* margin: 0; */
-  /* padding: 0; */
 }
 
 img {
@@ -54,12 +52,13 @@ h1, h2, h3, h4, h5, h6 {
 .main__title {
   padding-top: 25px;
   font-size: 1.8em;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arima Madurai', cursive;
   font-weight: 100;
 }
 
 .column__title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arima Madurai', cursive;
+  color: #6867ac;
   font-weight: 100;
   font-size: 1.5em;
 }
@@ -68,11 +67,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
+.group--dudas {
+  color: #6867ac;
+}
+
 .group__title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arima Madurai', cursive;
   text-align: center;
   font-weight: 100;
   font-size: 1.8em;
+  color: #6867ac;
   margin: 30px;
 }
 
@@ -417,7 +421,7 @@ body {
 }
 
 .our-team__title {
-  font-family: 'Pacifico', cursive;
+  font-family: "Arima Madurai", cursive;
   color: #6867ac;
   font-weight: bold;
   font-size: 1.8em;
@@ -477,7 +481,8 @@ body {
 }
 
 .contact-information .column--title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arima Madurai', cursive;
+  color: #6867ac;
   font-weight: 100;
 }
 
@@ -485,6 +490,7 @@ body {
   font-size: 1.3em;
   margin-right: 7px;
   position: relative;
+  color: #6867ac;
   top: 5px;
 }
 
@@ -496,7 +502,7 @@ body {
 }
 
 .contact-information .social-icon [class*="icon-"] {
-  background: black;
+  background: #6867ac;
   color: #fff;
   margin-left: 0px;
   margin-right: 15px;
@@ -583,6 +589,17 @@ body {
   }
   .cursos__title {
     text-align: center;
+  }
+  .main__text1 {
+    margin: 20px;
+    text-align: center;
+  }
+  .column__text {
+    margin: 20px;
+    text-align: center;
+  }
+  .column__title {
+    margin-left: 20px;
   }
 }
 
@@ -867,7 +884,8 @@ body {
        object-position: -140px;
   }
   .our-team__title {
-    font-size: 2.1em;
+    font-size: 2em;
+    font-weight: 100;
   }
   .our-team__txt {
     font-size: 1.3em;

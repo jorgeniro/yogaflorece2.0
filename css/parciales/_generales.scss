@@ -45,12 +45,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 25px;
     
     font-size: 1.8em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Arima Madurai', cursive;
     font-weight: 100;
 }
 
 .column__title {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Arima Madurai', cursive;
+    color: #6867ac;
     font-weight: 100;
     font-size: 1.5em;
 }
@@ -59,13 +60,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
 } 
 
-
+.group--dudas {
+    color: #6867ac;
+}
 
 .group__title {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Arima Madurai', cursive;
     text-align: center;
     font-weight: 100;
     font-size: 1.8em;
+    color: $tema;
     margin: 30px;
 }
 

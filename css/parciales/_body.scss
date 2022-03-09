@@ -128,7 +128,7 @@ body {
 }
 
 .our-team__title {
-    font-family: 'Pacifico', cursive;
+    font-family: $letra-titulos;
     color:$tema; 
     font-weight: bold;
     font-size: 1.8em;
@@ -186,10 +186,12 @@ body {
     padding-top: 0;
     margin-bottom: 30px;
     border-bottom: 1px solid $tema;
+    
 }
 
 .contact-information .column--title{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Arima Madurai', cursive;
+    color:#6867ac ;
     font-weight: 100;
 }
 
@@ -197,6 +199,7 @@ body {
     font-size: 1.3em;
     margin-right: 7px;
     position: relative;
+    color:#6867ac ;
     top: 5px;
 }
 
@@ -206,16 +209,18 @@ body {
 }
 
 .contact-information .social-icon [class*="icon-"] {
-    background: black;
+    background: $tema;
     color: $blanco;
     margin-left: 0px;
     margin-right: 15px;
     margin-top: 10px;
+    
 }
 
 .formulario {
     padding: 10px;
     padding-top: 0;
+    
 }
 
 .boton__gral {

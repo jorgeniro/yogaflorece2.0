@@ -1,5 +1,6 @@
 @media screen and (min-width:320px) {
     
+    
     .container--flex {
         display: flex;
     }
@@ -17,6 +18,17 @@
     }
     .cursos__title {
         text-align: center;
+    }
+    .main__text1 {
+       margin: 20px;
+       text-align: center;
+    }
+    .column__text {
+        margin: 20px;
+        text-align: center;
+    }
+    .column__title {
+        margin-left: 20px;
     }
 
 }
@@ -303,7 +315,8 @@
     }
 
     .our-team__title {
-        font-size: 2.1em;
+        font-size: 2em;
+        font-weight: 100;
     }
     .our-team__txt {
         font-size: 1.3em;

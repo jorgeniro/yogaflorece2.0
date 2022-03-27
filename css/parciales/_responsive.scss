@@ -30,6 +30,9 @@
     .column__title {
         margin-left: 20px;
     }
+    .main-header__contactInfo__adress a{
+        color: $tema;
+    }
 
 }
 
@@ -44,7 +47,7 @@
     .main-header__contactInfo__phone {
         background:none;
     }
-    .main-header__contactInfo__adress {
+    .main-header__contactInfo__adress a{
         color: $blanco;
     }
     .main-nav {
@@ -86,7 +89,7 @@
     }
 
     .today-special .column {
-        border: 5px solid #ddd;
+        background-color: #f0f0f0;
         border-radius: 20px;
         padding: 5px;
     }
@@ -168,6 +171,7 @@
     .btn {
         width: auto;
     }
+    
      .main__text {
         margin: 20px;
         font-size: 1.2em;

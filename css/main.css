@@ -319,6 +319,19 @@ body {
   font-weight: bold;
 }
 
+.presentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .gallery__img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -601,6 +614,9 @@ body {
   .column__title {
     margin-left: 20px;
   }
+  .main-header__contactInfo__adress a {
+    color: #6867ac;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -613,7 +629,7 @@ body {
   .main-header__contactInfo__phone {
     background: none;
   }
-  .main-header__contactInfo__adress {
+  .main-header__contactInfo__adress a {
     color: #fff;
   }
   .main-nav {
@@ -650,7 +666,7 @@ body {
     margin: 0;
   }
   .today-special .column {
-    border: 5px solid #ddd;
+    background-color: #f0f0f0;
     border-radius: 20px;
     padding: 5px;
   }
